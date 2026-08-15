@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64">
+  <defs>
+    <linearGradient id="dhGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d6efd" />
+      <stop offset="100%" stop-color="#030a1d" />
+    </linearGradient>
+    <linearGradient id="ecocashGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0055b8" />
+      <stop offset="100%" stop-color="#002d62" />
+    </linearGradient>
+    <linearGradient id="innbucksGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#9a3412" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="320" height="64" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- DiscHub Logo Branding -->
+  <g transform="translate(14, 15)">
+    <circle cx="17" cy="17" r="15" fill="url(#dhGrad)"/>
+    <!-- Shield / Hub check icon -->
+    <path d="M17 7 L25 10.5 V18 C25 23 21.5 26.5 17 28 C12.5 26.5 9 23 9 18 V10.5 Z" fill="#ffffff" opacity="0.9"/>
+    <path d="M14 17.5 L16.5 20 L20.5 15" stroke="#0d6efd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="38" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="16" fill="#0f172a" letter-spacing="-0.5">DiscHub</text>
+  </g>
+
+  <line x1="128" y1="12" x2="128" y2="52" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- EcoCash Badge -->
+  <g transform="translate(140, 18)">
+    <rect width="78" height="28" rx="5" fill="url(#ecocashGrad)"/>
+    <text x="39" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#ffffff">EcoCash</text>
+  </g>
+
+  <!-- InnBucks Badge -->
+  <g transform="translate(226, 18)">
+    <rect width="80" height="28" rx="5" fill="url(#innbucksGrad)"/>
+    <text x="40" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#ffffff">InnBucks</text>
+  </g>
+</svg>
